@@ -1,10 +1,10 @@
 body {
     margin: 0 auto;
-    /* background-image: url(asset/images/hipsquare.png); */
-    background-color: lightgray;
+    background-image: url("../images/hipsquare.png");
+    /* background-color: lightgray; */
 }
 
-h1, h2, h3 {
+h1, h2, h3, {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
 }
@@ -184,4 +184,103 @@ footer {
 #contactfooter {
     float: left;
     width: 100%;
+}
+
+.portfolioContainer {
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+#portfolio {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    color: #777777;
+    border: solid #dddddd;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 40px 30px;
+}
+    
+#hangmanBanner {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 179px;
+    bottom: 60px;
+    padding: 10px;
+    text-align: center;    
+}
+
+#rpgBanner {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    bottom: 290px;
+    left: 250px;
+    padding: 10px;
+    
+}
+
+#hangman {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    /* border: solid  #dddddd; */
+
+}
+
+.bannerText {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+
+}
+
+#RPG {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    bottom: 231px;
+    left: 250px;
+}
+
+#trivia {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    bottom: 460px;
+    left: 500px;
+
+}
+#triviaBanner {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    bottom: 525px;
+    left: 500px;
+    padding: 10px;
+}
+
+#rps {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    bottom: 691px;
+    left: 750px;
+
+}
+
+#rpsBanner {
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    bottom: 755px;
+    left: 750px;
+    padding: 10px;
+
 }
